@@ -1,0 +1,77 @@
+.card {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.content {
+  border: 1px solid var(--cerise-red);
+  border-radius: 7px;
+  width: 90%;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.content:hover {
+  box-shadow: 0 5px 15px var(--cerise-red);
+}
+
+
+.header {
+  max-width: inherit;
+  display: flex;
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px;
+}
+
+.titleContainer {
+  align-items: flex-start;
+  width: 80%;
+}
+
+.title {
+  font-family: "Google Sans Medium";
+  font-size: 23px;
+  margin-left: 10px;
+  color: var(--white);
+}
+
+.subtitle {
+  font-family: "Google Sans Regular";
+  font-size: 18px;
+  margin-top: 7px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  color: var(--gray);
+}
+
+.durationContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.duration {
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.body {
+  max-width: inherit;
+  border-radius: 0px 0px 7px 7px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Google Sans Regular";
+  color: var(--white);
+}

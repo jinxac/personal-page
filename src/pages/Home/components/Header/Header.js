@@ -53,11 +53,11 @@ const Header = () => {
             {logoName}
           </span>
         </NavLink>
-        {/* <input className={styles.menuButton} type="checkbox" id="menu-btn" />
+        <input className={styles.menuButton} type="checkbox" id="menu-btn" />
         <label className={styles.menuIcon} htmlFor="menu-btn">
           <span className={styles.navIcon}></span>
-        </label> */}
-        {/* <ul className={styles.menu}>
+        </label>
+        <ul className={styles.menu}>
           {
             menuContent.map((datum) => (
               <li key={datum.id}>
@@ -72,7 +72,7 @@ const Header = () => {
               </li>
             ))
           }
-        </ul> */}
+        </ul>
       </header>
     </Fade>
   );
