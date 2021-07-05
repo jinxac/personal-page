@@ -1,0 +1,12 @@
+.description {
+  text-align: center;
+  color: var(--gray);
+  font-family: "Google Sans Regular";
+}
+
+.container {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

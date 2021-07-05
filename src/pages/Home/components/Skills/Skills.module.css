@@ -1,0 +1,36 @@
+.container {
+  width: 90%;
+  padding: 0px 10px;
+  margin: 0px auto;
+  margin-top: 4rem;
+}
+
+.header {
+  margin-bottom: 3.5rem;
+}
+
+.headerText {
+  font-size: 60px;
+  line-height: 1.1;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  color: var(--white);
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar {
+  flex: 1;
+}
+
+.details {
+  flex: 1;
+  padding-left: 2rem;
+}
+.avatar > * {
+  max-width: 100%;
+  height: auto;
+}
