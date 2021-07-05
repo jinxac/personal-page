@@ -1,13 +1,15 @@
 {
     "private": true,
     "name": "personal-page",
-    "homepage": "",
+    "homepage": "http://harkiratsaluja.in",
     "version": "1.0.0",
     "scripts": {
       "build": "react-scripts build",
       "eject": "react-scripts eject",
       "start": "react-scripts start",
-      "test": "react-scripts test"
+      "test": "react-scripts test",
+      "predeploy": "yarn run build",
+      "deploy": "gh-pages -d build"
     },
     "dependencies": {
       "baseui": "9.116.2",
