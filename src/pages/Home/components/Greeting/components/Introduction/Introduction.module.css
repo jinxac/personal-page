@@ -1,13 +1,13 @@
 .heading {
-  margin-top: 110px;
-  font-size: 70px;
+  margin-top: 8rem;
+  font-size: 5rem;
   line-height: 5px;
   font-family: "Google Sans Bold";
   color: var(--white);
 }
 
 .description {
-  font-size: 30px;
+  font-size: 1.8rem;
   line-height: 45px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
@@ -38,4 +38,14 @@
 
 .button:hover {
   box-shadow: 0 5px 15px var(--hippie-pink);
+}
+
+@media(max-width: 768px) {
+  .button {
+    display: none;
+  }
+
+  .heading {
+    font-size: 3.5rem;
+  }
 }

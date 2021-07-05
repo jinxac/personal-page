@@ -21,7 +21,7 @@ const Introduction = () => (
       </span>
       {description}
     </p>
-    <div className="portfolio-repo-btn-div">
+    <div>
       <button
         className={styles.button}
         onClick={() =>null}

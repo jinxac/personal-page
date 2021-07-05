@@ -3,3 +3,9 @@
   margin-bottom: 2rem;
   line-height: 2.2rem;
 }
+
+@media(max-width: 768px) {
+  .description {
+    line-height: 1.8rem;
+  }
+}

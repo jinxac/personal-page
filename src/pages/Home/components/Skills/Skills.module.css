@@ -6,12 +6,12 @@
 }
 
 .header {
-  margin-bottom: 3.5rem;
+  margin-bottom: 7.5rem;
 }
 
 .headerText {
-  font-size: 60px;
-  line-height: 1.1;
+  font-size: 4rem;
+  line-height: 1.1rem;
   font-family: "Google Sans Regular";
   text-align: center;
   color: var(--white);
@@ -33,4 +33,21 @@
 .avatar > * {
   max-width: 100%;
   height: auto;
+}
+
+@media(max-width: 768px) {
+  .container {
+    margin-top: 0;
+  }
+  .headerText {
+    font-size: 2.8rem;
+  }
+
+  .body {
+    flex-direction: column;
+  }
+
+  .details {
+    margin-top: 2rem;
+  }
 }
