@@ -1,7 +1,7 @@
 .header {
   display: block;
-  padding: 20px 10px;
-  margin: -10px auto;
+  padding: 30px 10px;
+  /* margin: -10px auto; */
 }
 
 .header ul {
@@ -36,7 +36,6 @@
 
 .menu {
   font-family: "Google Sans Regular";
-  margin-top: 10px;
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
