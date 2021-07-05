@@ -47,6 +47,7 @@ code {
 html,
 body {
   scroll-behavior: smooth;
+  background-color: #1D1D1D;
 }
 body {
   margin: 0;
@@ -68,6 +69,22 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #E3405F;
 }
+
+:root {
+  --torch-red: #FB1056;
+  --burnt-sienna: #EB6559;
+  --white: #FFFFFF;
+  --cod-gray: #1D1D1D;
+  --black: #000000;
+  --gray: #8D8D8D;
+  --cerise-red: #E3405F;
+  --hippie-pink: #B74258;
+  --shark: #292A2D;
+  --manhattan: #F7B799;
+  --rose-bud: #FCB696;
+  --mine-shaft: #212121;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   html,

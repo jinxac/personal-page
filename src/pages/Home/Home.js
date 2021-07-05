@@ -1,5 +1,13 @@
 import React from "react";
 
-const Home = () => <div>Home</div>;
+import Header from "./components/Header";
+import Greeting from "./components/Greeting";
+
+const Home = () => (
+  <>
+    <Header />
+    <Greeting />
+  </>
+);
 
 export default Home;
