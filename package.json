@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "personal-page",
-    "homepage": "https://jinxac.github.io/personal-page/",
+    "homepage": "http://harkiratsaluja.in",
     "version": "1.0.0",
     "scripts": {
       "build": "react-scripts build",
