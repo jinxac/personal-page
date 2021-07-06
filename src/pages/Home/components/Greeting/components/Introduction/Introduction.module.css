@@ -19,32 +19,7 @@
   color: var(--cerise-red);
 }
 
-.button {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 1);
-  padding: 15px 15px;
-  margin-top: 25px;
-  border-radius: 4px;
-  border-width: 0px;
-  margin-bottom: 20px;
-  width: 200px;
-  height: 50px;
-  font-family: "Google Sans Regular";
-  font-size: 18px;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-  background-color: var(--hippie-pink);
-}
-
-.button:hover {
-  box-shadow: 0 5px 15px var(--hippie-pink);
-}
-
 @media(max-width: 768px) {
-  .button {
-    display: none;
-  }
-
   .heading {
     font-size: 3.5rem;
   }

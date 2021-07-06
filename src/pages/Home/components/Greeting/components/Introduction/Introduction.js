@@ -21,14 +21,6 @@ const Introduction = () => (
       </span>
       {description}
     </p>
-    <div>
-      <button
-        className={styles.button}
-        onClick={() =>null}
-      >
-        Contact Me
-      </button>
-    </div>
   </div>
 );
 

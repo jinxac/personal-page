@@ -28,7 +28,7 @@ const Card = (props) => {
                 {degree.subTitle}
               </h3>
             </div>
-            <div>
+            <div className={styles.durationContainer}>
               <h3 className={styles.duration}>
                 {degree.duration}
               </h3>
