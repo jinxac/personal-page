@@ -1,0 +1,132 @@
+.header {
+  display: block;
+  padding: 30px 10px 0 0;
+}
+
+.header ul {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  overflow: hidden;
+}
+
+.header li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: -12px;
+  line-height: normal;
+}
+
+.logoName {
+  font-family: "Google Sans Regular";
+  font-weight: bold;
+  padding: 0 10px;
+  letter-spacing: 3px;
+  color: var(--white);
+}
+
+.menu {
+  font-family: "Google Sans Medium";
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+
+.menuIcon {
+  cursor: pointer;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.navIcon {
+  background: var(--torch-red);
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.navIcon:before {
+  top: 5px;
+}
+
+.navIcon:after {
+  top: -5px;
+}
+
+.navIcon:before,
+.navIcon:after {
+  background: #fb1056;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.menuButton {
+  display: none;
+}
+
+.menuButton:checked ~ .menu {
+  max-height: 370px;
+}
+
+.menuButton:checked ~ .menuIcon .navIcon {
+  background: transparent;
+}
+
+.menuButton:checked ~ .menuIcon .navIcon:before {
+  transform: rotate(-45deg);
+}
+
+.menuButton:checked ~ .menuIcon .navIcon:after {
+  transform: rotate(45deg);
+}
+
+.menuButton:checked ~ .menuIcon .navIcon:before,
+.menuButton:checked ~ .menuIcon .navIcon:after {
+  top: 0;
+}
+
+.menuItem {
+  margin: 2px 5px 20px 10px;
+  transition: all 0.2s ease-in-out;
+  border-Radius: 5;
+  color: var(--white);
+}
+
+.activeItem {
+  color: var(--cerise-red);
+  font-size: 1.33rem;
+}
+
+@media (min-width: 768px) {
+  .header li {
+    float: left;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header .menu {
+    max-height: none;
+  }
+  .header .menuIcon {
+    display: none;
+  }
+}
