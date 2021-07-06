@@ -7,12 +7,21 @@ import {
 
 
 import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 
 const App = () => {
   return (
     <div>
       <BrowserRouter basename="/">
         <Switch>
+          <Route
+            path="/projects"
+            render={(props) => (
+              <Projects
+                {...props}
+              />
+            )}
+          />
           <Route
             path="/"
             render={(props) => (
