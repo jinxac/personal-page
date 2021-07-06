@@ -1,0 +1,19 @@
+.description {
+  font-size: 1.5rem;
+  line-height: 45px;
+  margin-right: 40px;
+  font-family: "Google Sans Regular";
+  color: var(--gray);
+  margin-top: 60px;
+}
+
+.name {
+  color: var(--cerise-red);
+}
+
+
+@media(max-width: 768px) {
+  .heading {
+    font-size: 3.5rem;
+  }
+}
