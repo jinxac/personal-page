@@ -32,11 +32,11 @@ const Header = () => {
       name: "Projects",
       route: "/projects"
     },
-    // {
-    //   id: 5,
-    //   name: "Contact & Resume",
-    //   route: "/contact"
-    // }
+    {
+      id: 5,
+      name: "Blog",
+      route: "/blog"
+    }
   ];
 
   return (
