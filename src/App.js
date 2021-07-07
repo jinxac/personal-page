@@ -8,6 +8,8 @@ import {
 
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import Blog from "./pages/Blog";
+import BlogContent from "./pages/BlogContent";
 
 const App = () => {
   return (
@@ -18,6 +20,22 @@ const App = () => {
             path="/projects"
             render={(props) => (
               <Projects
+                {...props}
+              />
+            )}
+          />
+          <Route
+            path="/blog/:id"
+            render={(props) => (
+              <BlogContent
+                {...props}
+              />
+            )}
+          />
+          <Route
+            path="/blog"
+            render={(props) => (
+              <Blog
                 {...props}
               />
             )}
