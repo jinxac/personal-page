@@ -9,13 +9,13 @@ const List = () => {
     {
       id: 1,
       name: "Wealthy Web",
-      description: "A web platform to purchase basket of mutual funds, built using ReactJS, redux and graphql",
+      description: "A web platform to purchase basket of mutual funds, built using ReactJS, Redux and Apollo",
       url: "https://www.wealthy.in"
     },
     {
       id: 2,
       name: "Wealthy Mobile App",
-      description: "A mobile platform to purchase basket of mutual funds, built using React Native, apollo client and graphql",
+      description: "A mobile platform to purchase basket of mutual funds, built using React Native, Apollo and Graphql",
       url: "https://play.google.com/store/apps/details?id=in.wealthy.android.wealthy"
     },
     {
@@ -23,6 +23,12 @@ const List = () => {
       name: "SpeakTribe",
       description: "A language learning web application built using Django and deployed on Google Cloud Platform",
       url: "https://www.speaktribe.com/"
+    },
+    {
+      id: 4,
+      name: "Personal Page",
+      description: "Personal websiter developed using React and Redux",
+      url: "https://github.com/jinxac/personal-page"
     }
   ]
 
