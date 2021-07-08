@@ -9,7 +9,7 @@ const List = () => {
 
   useEffect(() => {
     const fetchBlogs = () => {
-      fetch('http://13.234.218.202/api/v0/blog/')
+      fetch('http://harkiratsaluja.in/api/v0/blog/')
       .then((res) => res.json())
       .then((data) => {
         setBlogs(data);

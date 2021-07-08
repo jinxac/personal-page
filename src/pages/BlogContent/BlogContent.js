@@ -15,7 +15,7 @@ const BlogContent = () => {
 
   useEffect(() => {
     const fetchContent = () => {
-      fetch(`http://13.234.218.202/api/v0/blog/${params.id}/`)
+      fetch(`http://harkiratsaluja.in/api/v0/blog/${params.id}/`)
       .then((res) => res.json())
       .then((data) => {
         setContent(data.content);

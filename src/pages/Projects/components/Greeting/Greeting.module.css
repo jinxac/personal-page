@@ -20,4 +20,8 @@
   .container {
     flex-direction: column;
   }
+
+  .avatar {
+    margin: 2rem 0;
+  }
 }

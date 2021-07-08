@@ -23,10 +23,7 @@ const Introduction = () => (
       <span className={styles.name}>
       Frontend&nbsp;
       </span>
-      <span>
-        and&nbsp;
-      </span>
-      <span>as well as&nbsp;</span>
+      <span>and&nbsp;</span>
       <span  className={styles.name}>
         Deployments&nbsp;
       </span>

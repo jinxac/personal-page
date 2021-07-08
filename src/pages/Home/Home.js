@@ -6,15 +6,19 @@ import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import Education from "./components/Education";
 
+import styles from "./Home.module.css";
+
 
 
 const Home = () => (
   <>
     <Header />
-    <Greeting />
-    <Skills />
-    <Education />
-    <Footer />
+    <div className={styles.container}>
+      <Greeting />
+      <Skills />
+      <Education />
+      <Footer />
+    </div>
   </>
 );
 

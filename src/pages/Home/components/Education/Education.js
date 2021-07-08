@@ -21,7 +21,9 @@ const Education = () => (
         </h1>
       </div>
       <div className={styles.content}>
-        <Avatar />
+        <div className={styles.avatar}>
+          <Avatar />
+        </div>
         <Card />
       </div>
 
